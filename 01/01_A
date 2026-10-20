@@ -1,0 +1,28 @@
+const args = process.argv.slice(2);
+
+const operation = args[0];
+const x = Number.parseInt(args[1], 10);
+const y = Number.parseInt(args[2], 10);
+
+switch (operation) {
+  case 'sum':
+    sum(x, y);
+    break;
+  case 'minus':
+    minus(x, y);
+    break;
+  default:
+    invalid();
+}
+
+function sum(a, b) {
+  console.log(a + b);
+}
+
+function minus(a, b) {
+  console.log(a - b);
+}
+
+function invalid() {
+  console.log('Not a valid operation');
+}
