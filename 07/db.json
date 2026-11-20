@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Amin",
+      "age": 22,
+      "random_id": 61413846,
+      "type": "admin",
+      "password": "amin1234"
+    },
+    {
+      "id": 2,
+      "name": "Arash",
+      "age": 18,
+      "random_id": 53631266,
+      "type": "admin",
+      "password": "arash1234"
+    },
+    {
+      "id": 3,
+      "name": "Reza",
+      "age": 27,
+      "random_id": 97654066,
+      "type": "user",
+      "password": "reza1234"
+    }
+  ]
+}

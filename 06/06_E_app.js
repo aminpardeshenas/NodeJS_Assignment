@@ -204,7 +204,6 @@ app.post("/UpdateUser", function(req, res) {
         res.end("Error saving database!");
         return;
       }
-
       res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
       res.end(
         JSON.stringify({
